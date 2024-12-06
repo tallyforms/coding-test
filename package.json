@@ -9,8 +9,8 @@
     "lint": "next lint",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
-    "db:seed": "tsx src/scripts/generate-data.ts",
-    "debug:inspect-answer": "tsx src/scripts/inspect-answer.ts"
+    "db:seed": "tsx scripts/generate-data.ts",
+    "debug:inspect-answer": "tsx scripts/inspect-answer.ts"
   },
   "dependencies": {
     "dotenv": "^16.4.7",
