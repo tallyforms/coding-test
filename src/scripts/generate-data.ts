@@ -2,7 +2,7 @@
  * Hello 👋
  *
  * This piece of code was only used to generate a large amount of data for testing purposes.
- * It is not relevant to the coding test. You can safely ignore this file.
+ * You don't need to modify anything in this file and it won't be used for grading.
  */
 
 import 'dotenv/config';
