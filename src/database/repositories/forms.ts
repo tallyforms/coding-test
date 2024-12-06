@@ -7,6 +7,12 @@ const add = async (data: FormData) => {
   return result.insertId;
 };
 
+const getById = async (id: number) => {
+  const [result] = await db.select().from(Form).where(eq(Form.id, id));
+
+  return result;
+};
+
 const getAll = async () => {
   const forms = await db
     .select({
@@ -25,5 +31,6 @@ const getAll = async () => {
 
 export const Forms = {
   add,
+  getById,
   getAll,
 };

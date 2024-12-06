@@ -10,7 +10,8 @@
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
     "db:seed": "tsx scripts/generate-data.ts",
-    "debug:inspect-answer": "tsx scripts/inspect-answer.ts"
+    "debug:inspect-answer": "tsx scripts/inspect-answer.ts",
+    "debug:add-data": "tsx scripts/add-data-debug-form.ts"
   },
   "dependencies": {
     "dotenv": "^16.4.7",
