@@ -9,7 +9,8 @@
     "lint": "next lint",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
-    "db:seed": "tsx src/scripts/generate-data.ts"
+    "db:seed": "tsx src/scripts/generate-data.ts",
+    "debug:inspect-answer": "tsx src/scripts/inspect-answer.ts"
   },
   "dependencies": {
     "dotenv": "^16.4.7",
@@ -24,11 +25,13 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/yargs": "^17.0.33",
     "drizzle-kit": "^0.29.1",
     "eslint": "^8",
     "eslint-config-next": "15.0.4",
     "picocolors": "^1.1.1",
     "tsx": "^4.19.2",
-    "typescript": "^5"
+    "typescript": "^5",
+    "yargs": "^17.7.2"
   }
 }
